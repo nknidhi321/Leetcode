@@ -7,7 +7,15 @@ class Solution {
         int m = matrix[0].length;
         
         int[] rowOnesCount = new int[n];
+        //row[0] == 0th row me kitne ones
+        //row[1] == 1st row me kitne ones
+        //row[2] == 2nd row me kitne ones
+        
         int[] colOnesCount = new int[m];
+        //col[0] == 0th col me kitne ones
+        //col[1] == 1st col me kitne ones
+        //col[2] == 2nd col me kitne ones
+        
         
         //Counting ones for rowOnesCount and colOnesCount
         for(int i = 0; i < n; i++) {
